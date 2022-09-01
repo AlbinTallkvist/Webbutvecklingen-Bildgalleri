@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.codmenu {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px
+}
+
+.codmenu img {
+    width: 100%; 
+}
+
+.siegemenu {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 10px
+}
+
+.siegemenu img {
+    width: 100%;
+}
+
+.battlefieldmenu {
+    display: grid 1fr;
+    gap: 10px
+}
+
+.battlefieldmenu img {
+    width: 100%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px
+}
+
+.gallery img {
+    width: 100%;
+}
+
+a {
+    color: white;
+    font-size:  32px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkslateblue;
+}
